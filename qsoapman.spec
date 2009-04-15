@@ -20,6 +20,7 @@ is written in C++ and should run on every platform supported by Qt.
 rm -f src/Makefile
 
 %build
+export QTDIR=/usr
 qmake
 %{__make}
 
